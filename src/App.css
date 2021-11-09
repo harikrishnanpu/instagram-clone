@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app_sign-up {
+  display: flex;
+  flex-direction: column;
+}
+
+.app_header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_header_left {
+  display: flex;
+  align-items: center;
+}
+.app_header_left .MuiSvgIcon-root {
+  margin-left: 20px;
+  padding: 3px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.app_header_left .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  background-color: #b1b1b1;
+  transition: background-color 0.2s ease-in;
+}
+
+.app_header_image {
+  object-fit: contain;
+}
+
+.app_posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_posts_right {
+  margin-left: 20px;
+}
